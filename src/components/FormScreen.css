@@ -1,0 +1,228 @@
+
+.box-rotate-fixed .box-strip {
+    position: absolute;
+    height: 400px;
+    background-color: #f5f5f5;
+}
+.box-rotate-fixed .box-strip-bottom-left {
+    left: 0;
+    width: 100%;
+    max-width: 44%;
+    border-top: 8px solid #e0e8fc;
+}
+.box-rotate-fixed .box-strip-top-right {
+    right: 0;
+    width: 100%;
+    max-width: 44%;
+    border-bottom: 8px solid #e0e8fc;
+}
+.box-rotate-fixed .box-strip-middle {
+    width: 100%;
+}
+.box-rotate-fixed {
+    position: absolute;
+    height: 420px;
+    left: 0;
+    right: 0;
+    top: 16%;
+    bottom: 0;
+    z-index: 0;
+    -webkit-transform: skewY(-30deg);
+    transform: skewY(-30deg);
+}
+
+.auth-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-self: center;
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.auth-header {
+    margin: 40px 32px 0;
+    display: flex;
+    justify-content: unset;
+    align-items: start;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-self: center;
+    width: 100%;
+    z-index: 1;
+}
+.logo-box {
+    position: absolute;
+    z-index: 1;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+.auth-box-wrapper {
+    margin-top: 40px;
+    width: 480px;
+    max-width: 100%;
+}
+.content-box {
+    box-sizing: border-box;
+    padding-top: 0;
+    z-index: 0;
+    position: relative;
+    height: 100%;
+}
+.content-header {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 550px;
+}
+.auth-card {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 6px 6px 30px hsl(0deg 0% 62% / 11%);
+}
+.auth-card .auth-card-center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.auth-card .auth-card-padding {
+    padding: 40px;
+}
+.auth-card .auth-content .auth-form-block {
+    text-align: left;
+}
+.auth-card .auth-content .auth-form-block .form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.41px;
+    border-radius: 6px;
+    height: 37px;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 0 1px transparent;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    color: #343434;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+
+.btn-xl {
+    padding: 10px 40px;
+}
+.btn-primary {
+    background: #3766e8;
+    border: 1px solid #3766e8;
+    color: #fff;
+}
+.btn {
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+}
+input, select {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.btn-block {
+    width: 100%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn {
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+}
+
+.auth-card .auth-content .auth-title {
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #343434;
+}
+.auth-des{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: grey;
+}
+.select-company-size{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: rgb(230, 227, 227);
+    cursor: pointer;
+}
+.select-company-size.active{
+    background-color: #007bff;
+    color: #fff;
+}
