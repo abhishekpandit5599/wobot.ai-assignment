@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/wobot.ai-assignment/static/css/main.e051d0a8.css",
+    "main.js": "/wobot.ai-assignment/static/js/main.a53b4bc2.js",
+    "static/media/logo.svg": "/wobot.ai-assignment/static/media/logo.19a2d38382b7b2a9faaab5e7134d7a7e.svg",
+    "index.html": "/wobot.ai-assignment/index.html",
+    "main.e051d0a8.css.map": "/wobot.ai-assignment/static/css/main.e051d0a8.css.map",
+    "main.a53b4bc2.js.map": "/wobot.ai-assignment/static/js/main.a53b4bc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e051d0a8.css",
+    "static/js/main.a53b4bc2.js"
+  ]
+}
